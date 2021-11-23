@@ -1,0 +1,216 @@
+/*first*/
+.first {
+    position: relative;
+    background: url("../images/Bg.svg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.first .container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.first h1{
+    color: white;
+    font-size: 86px;
+    line-height: 86px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.first p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    color: white;
+    max-width: 540px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.first button{
+    color: #ed4c5c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+button:hover{
+    transform: scale(1.2,1.2);
+}
+/*video*/
+.video .container{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.video .text{
+    max-width: 450px;
+    margin-top: 40px;
+}
+.video h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+}
+.video p{
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+}
+.video a{
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #ed4c5c;
+    text-decoration: none;
+}
+.video span{
+    opacity: 0.8;
+    position: relative;
+    display: block;
+    width: 480px;
+    height: 315px;
+    background: url("../images/Video_bg.svg") right no-repeat;
+}
+.video span i{
+    position: absolute;
+    font-size: 66px;
+    color: #ed4c5c;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+/*features*/
+.features{
+    background: #fafafa;
+}
+.features .blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    padding-bottom: 120px;
+}
+.blocks .text{
+    margin: 0 auto;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.features h2{
+    padding-top: 70px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    height: 55px;
+}
+.features h3{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.features p{
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: center;
+}
+.features a{
+    text-align: center;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ed4c5c;
+    text-decoration: none;
+}
+.features span{
+    display: block;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+.block_1{
+    background: url("../images/FT_1.svg") no-repeat center;
+}
+.block_2 {
+    background: url("../images/FT_2.svg") no-repeat center;
+}
+.block_3 {
+    background: url("../images/FT_3.svg") no-repeat center;
+}
+/*technology*/
+.technology h2{
+    margin: 0 auto;
+}
+.technology .container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+}
+.technology .numbers{
+    display: flex;
+    justify-content: space-between;
+}
+.big_Num{
+    margin: 0;
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 900;
+    color: rgba(16,16,16,0.08);
+    text-align: center;
+}
+.numbers h3{
+    text-align: center;
+    margin: 0;
+}
+.small_Text {
+    max-width: 195px;
+    text-align: center;
+}
+
+.number_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(0,-60px);
+}
+.number2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.technology button {
+    margin: 0 auto;
+    background: #ed4c5c;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+/*apps*/
+.apps {
+    background: #ed4c5c;
+}
+.apps .apps_text{
+    color: white;
+}
